@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13DCD4C10C57A7DA55D41CA731D81F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3BE5043E1490F94D1FB48CB0C9FD9A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		588088C51AC372E31C2DE91AADD30E4C /* Pods-Japanese Translator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B7A4D3D3989C6D7883B2D5650316A0 /* Pods-Japanese Translator-dummy.m */; };
+		5950FCB6C33BDE258173FDAE88F86596 /* Pods-Japanese Translator-Japanese TranslatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D76B98F80FACF516184E643543CB115F /* Pods-Japanese Translator-Japanese TranslatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9890C822D5535C76FF404014E86E94A1 /* Pods-Japanese Translator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7B599BBE547CAA28F8CEC2DD1BAE56 /* Pods-Japanese Translator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19BEC6723C882DB08891B650B49E932 /* Pods-Japanese TranslatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA68801B9AD943E5C30FC23AB0DCED /* Pods-Japanese TranslatorTests-dummy.m */; };
+		D02C8B9AA907752424AE9447CE26062B /* Pods-Japanese TranslatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E6D80EFDE2F907EA66500E565F3FCB /* Pods-Japanese TranslatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34ECE842A7DE13F6C769F532E355259 /* Pods-Japanese Translator-Japanese TranslatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 706006F2DF25257E8FEF014ABF71817D /* Pods-Japanese Translator-Japanese TranslatorUITests-dummy.m */; };
+		F009E489FC30F2E47B9240AC6E09EA57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1458C3FE818E5EFD9AAAA14166A542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2835BD32C9C956DF8685EE7552A7E37;
+			remoteInfo = "Pods-Japanese Translator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F81E11AA046D383E36237E7A9E60165 /* Pods-Japanese TranslatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Japanese TranslatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		222F2DE6C555CFC6CCBDC040EC019C5F /* Pods-Japanese TranslatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Japanese TranslatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		27970D0F75FBB77836F912879376C52E /* Pods-Japanese Translator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Japanese Translator-Info.plist"; sourceTree = "<group>"; };
+		28CA827B1B9946F6195B97988C0D2350 /* Pods-Japanese Translator-Japanese TranslatorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Japanese Translator-Japanese TranslatorUITests-Info.plist"; sourceTree = "<group>"; };
+		3A103EDC78DF1071F2AF7799D2DE7BF5 /* Pods-Japanese Translator-Japanese TranslatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Japanese Translator-Japanese TranslatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3ACDA32FBF4420C5F452FC8E7BCEAE80 /* Pods-Japanese Translator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Japanese Translator-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C73621C47454FDF98C96BD5B70A346B /* Pods_Japanese_Translator_Japanese_TranslatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Japanese_Translator_Japanese_TranslatorUITests.framework; path = "Pods-Japanese Translator-Japanese TranslatorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6652D06A1DDFBF4982B60A7BC6B1DEE9 /* Pods_Japanese_TranslatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Japanese_TranslatorTests.framework; path = "Pods-Japanese TranslatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C65C7C045BC85ACD48CAE91730FBC3 /* Pods-Japanese Translator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Japanese Translator.debug.xcconfig"; sourceTree = "<group>"; };
+		68E6D80EFDE2F907EA66500E565F3FCB /* Pods-Japanese TranslatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Japanese TranslatorTests-umbrella.h"; sourceTree = "<group>"; };
+		706006F2DF25257E8FEF014ABF71817D /* Pods-Japanese Translator-Japanese TranslatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Japanese Translator-Japanese TranslatorUITests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7727B9F2587DE3B95C369F84ADBAD95C /* Pods-Japanese Translator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Japanese Translator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		773247A1A78345D7497ABB2EC9E5656D /* Pods-Japanese Translator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Japanese Translator.release.xcconfig"; sourceTree = "<group>"; };
+		80B7A4D3D3989C6D7883B2D5650316A0 /* Pods-Japanese Translator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Japanese Translator-dummy.m"; sourceTree = "<group>"; };
+		96886571D2325E196B7C22E5BC809326 /* Pods-Japanese Translator-Japanese TranslatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Japanese Translator-Japanese TranslatorUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F7B599BBE547CAA28F8CEC2DD1BAE56 /* Pods-Japanese Translator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Japanese Translator-umbrella.h"; sourceTree = "<group>"; };
+		B28CFD32133E6984D3515170E4761809 /* Pods-Japanese TranslatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Japanese TranslatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B805793BFC2B732DCE39114F4303ED56 /* Pods_Japanese_Translator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Japanese_Translator.framework; path = "Pods-Japanese Translator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC77A5724049772A0DE28559713DA80A /* Pods-Japanese Translator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Japanese Translator.modulemap"; sourceTree = "<group>"; };
+		CEEA68801B9AD943E5C30FC23AB0DCED /* Pods-Japanese TranslatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Japanese TranslatorTests-dummy.m"; sourceTree = "<group>"; };
+		D2D85C4A2303E84793BAD00DFA25F9BC /* Pods-Japanese TranslatorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Japanese TranslatorTests-Info.plist"; sourceTree = "<group>"; };
+		D35689837D23487ED5F7A35B2038EB0A /* Pods-Japanese Translator-Japanese TranslatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Japanese Translator-Japanese TranslatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D76B98F80FACF516184E643543CB115F /* Pods-Japanese Translator-Japanese TranslatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Japanese Translator-Japanese TranslatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		DBC461CED2A300F234E9A7443FDECD63 /* Pods-Japanese TranslatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Japanese TranslatorTests.modulemap"; sourceTree = "<group>"; };
+		DED07BA7597016E15BACFDC42B35E6D3 /* Pods-Japanese TranslatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Japanese TranslatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4BC6515E693D0EF7EF0D594A1365E3 /* Pods-Japanese Translator-Japanese TranslatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Japanese Translator-Japanese TranslatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F96121A30BE94A3D3809034140E5F230 /* Pods-Japanese Translator-Japanese TranslatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Japanese Translator-Japanese TranslatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D25AF5E97570083336C3E20B3D0E339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DCD4C10C57A7DA55D41CA731D81F59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E0CA25B43A7C4561027BC3867C610B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F009E489FC30F2E47B9240AC6E09EA57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8171F731BDDC174A84665AFDF75C88D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE5043E1490F94D1FB48CB0C9FD9A08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A45D789A8E29ED2D44E7DF8469677B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C7FC1D3D5CD6AAB5AE97E5B4F13CE4D /* Pods-Japanese Translator */,
+				43ED0EE1A74313C37243DFFEF963DBAA /* Pods-Japanese Translator-Japanese TranslatorUITests */,
+				A5BD8EAB22F45C9F05CC573B77360A6E /* Pods-Japanese TranslatorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C7FC1D3D5CD6AAB5AE97E5B4F13CE4D /* Pods-Japanese Translator */ = {
+			isa = PBXGroup;
+			children = (
+				CC77A5724049772A0DE28559713DA80A /* Pods-Japanese Translator.modulemap */,
+				7727B9F2587DE3B95C369F84ADBAD95C /* Pods-Japanese Translator-acknowledgements.markdown */,
+				3ACDA32FBF4420C5F452FC8E7BCEAE80 /* Pods-Japanese Translator-acknowledgements.plist */,
+				80B7A4D3D3989C6D7883B2D5650316A0 /* Pods-Japanese Translator-dummy.m */,
+				27970D0F75FBB77836F912879376C52E /* Pods-Japanese Translator-Info.plist */,
+				9F7B599BBE547CAA28F8CEC2DD1BAE56 /* Pods-Japanese Translator-umbrella.h */,
+				67C65C7C045BC85ACD48CAE91730FBC3 /* Pods-Japanese Translator.debug.xcconfig */,
+				773247A1A78345D7497ABB2EC9E5656D /* Pods-Japanese Translator.release.xcconfig */,
+			);
+			name = "Pods-Japanese Translator";
+			path = "Target Support Files/Pods-Japanese Translator";
+			sourceTree = "<group>";
+		};
+		43ED0EE1A74313C37243DFFEF963DBAA /* Pods-Japanese Translator-Japanese TranslatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96886571D2325E196B7C22E5BC809326 /* Pods-Japanese Translator-Japanese TranslatorUITests.modulemap */,
+				D35689837D23487ED5F7A35B2038EB0A /* Pods-Japanese Translator-Japanese TranslatorUITests-acknowledgements.markdown */,
+				3A103EDC78DF1071F2AF7799D2DE7BF5 /* Pods-Japanese Translator-Japanese TranslatorUITests-acknowledgements.plist */,
+				706006F2DF25257E8FEF014ABF71817D /* Pods-Japanese Translator-Japanese TranslatorUITests-dummy.m */,
+				28CA827B1B9946F6195B97988C0D2350 /* Pods-Japanese Translator-Japanese TranslatorUITests-Info.plist */,
+				D76B98F80FACF516184E643543CB115F /* Pods-Japanese Translator-Japanese TranslatorUITests-umbrella.h */,
+				F96121A30BE94A3D3809034140E5F230 /* Pods-Japanese Translator-Japanese TranslatorUITests.debug.xcconfig */,
+				EC4BC6515E693D0EF7EF0D594A1365E3 /* Pods-Japanese Translator-Japanese TranslatorUITests.release.xcconfig */,
+			);
+			name = "Pods-Japanese Translator-Japanese TranslatorUITests";
+			path = "Target Support Files/Pods-Japanese Translator-Japanese TranslatorUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A5BD8EAB22F45C9F05CC573B77360A6E /* Pods-Japanese TranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC461CED2A300F234E9A7443FDECD63 /* Pods-Japanese TranslatorTests.modulemap */,
+				B28CFD32133E6984D3515170E4761809 /* Pods-Japanese TranslatorTests-acknowledgements.markdown */,
+				0F81E11AA046D383E36237E7A9E60165 /* Pods-Japanese TranslatorTests-acknowledgements.plist */,
+				CEEA68801B9AD943E5C30FC23AB0DCED /* Pods-Japanese TranslatorTests-dummy.m */,
+				D2D85C4A2303E84793BAD00DFA25F9BC /* Pods-Japanese TranslatorTests-Info.plist */,
+				68E6D80EFDE2F907EA66500E565F3FCB /* Pods-Japanese TranslatorTests-umbrella.h */,
+				DED07BA7597016E15BACFDC42B35E6D3 /* Pods-Japanese TranslatorTests.debug.xcconfig */,
+				222F2DE6C555CFC6CCBDC040EC019C5F /* Pods-Japanese TranslatorTests.release.xcconfig */,
+			);
+			name = "Pods-Japanese TranslatorTests";
+			path = "Target Support Files/Pods-Japanese TranslatorTests";
+			sourceTree = "<group>";
+		};
+		C152FDC901ABF8F0BEBD69D4B2AE526F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B805793BFC2B732DCE39114F4303ED56 /* Pods_Japanese_Translator.framework */,
+				4C73621C47454FDF98C96BD5B70A346B /* Pods_Japanese_Translator_Japanese_TranslatorUITests.framework */,
+				6652D06A1DDFBF4982B60A7BC6B1DEE9 /* Pods_Japanese_TranslatorTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C152FDC901ABF8F0BEBD69D4B2AE526F /* Products */,
+				2A45D789A8E29ED2D44E7DF8469677B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		193F7E2A31D5E978D732A6E7C1164EBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5950FCB6C33BDE258173FDAE88F86596 /* Pods-Japanese Translator-Japanese TranslatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572A2D8A6E48E97BF2C7585172E87DB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02C8B9AA907752424AE9447CE26062B /* Pods-Japanese TranslatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3B7BA06BD6AA4478B1F0D16EDE1F10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9890C822D5535C76FF404014E86E94A1 /* Pods-Japanese Translator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		345C7C9F93F5235619EA3B909BF4ADC5 /* Pods-Japanese TranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D38FC578345C06670AC692D584A80B8 /* Build configuration list for PBXNativeTarget "Pods-Japanese TranslatorTests" */;
+			buildPhases = (
+				572A2D8A6E48E97BF2C7585172E87DB8 /* Headers */,
+				6C92E0237800676E554FA2B0B8BDB6D9 /* Sources */,
+				8171F731BDDC174A84665AFDF75C88D2 /* Frameworks */,
+				6247946E590E4E7731BFADA24B3E8F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D6FAFC34C6495CCDB37292FB511DE70 /* PBXTargetDependency */,
+			);
+			name = "Pods-Japanese TranslatorTests";
+			productName = "Pods-Japanese TranslatorTests";
+			productReference = 6652D06A1DDFBF4982B60A7BC6B1DEE9 /* Pods_Japanese_TranslatorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AEC6C2B72213E3E6CEB4B4C65C33C4E /* Pods-Japanese Translator-Japanese TranslatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281C36CD169CE7543EC28F03AC439A43 /* Build configuration list for PBXNativeTarget "Pods-Japanese Translator-Japanese TranslatorUITests" */;
+			buildPhases = (
+				193F7E2A31D5E978D732A6E7C1164EBA /* Headers */,
+				8AC7C7BCA9184C56D689394123DA59BA /* Sources */,
+				2D25AF5E97570083336C3E20B3D0E339 /* Frameworks */,
+				7538473AEDB8977EFF135C878819FFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Japanese Translator-Japanese TranslatorUITests";
+			productName = "Pods-Japanese Translator-Japanese TranslatorUITests";
+			productReference = 4C73621C47454FDF98C96BD5B70A346B /* Pods_Japanese_Translator_Japanese_TranslatorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2835BD32C9C956DF8685EE7552A7E37 /* Pods-Japanese Translator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F3505CA927B9796AC42AD54BE1886E /* Build configuration list for PBXNativeTarget "Pods-Japanese Translator" */;
+			buildPhases = (
+				FB3B7BA06BD6AA4478B1F0D16EDE1F10 /* Headers */,
+				4AD1E07BC4E9BA870FEB466B2CFEB17B /* Sources */,
+				59E0CA25B43A7C4561027BC3867C610B /* Frameworks */,
+				FABCDB1A7C6308C41F90BBEF66288124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Japanese Translator";
+			productName = "Pods-Japanese Translator";
+			productReference = B805793BFC2B732DCE39114F4303ED56 /* Pods_Japanese_Translator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C152FDC901ABF8F0BEBD69D4B2AE526F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2835BD32C9C956DF8685EE7552A7E37 /* Pods-Japanese Translator */,
+				9AEC6C2B72213E3E6CEB4B4C65C33C4E /* Pods-Japanese Translator-Japanese TranslatorUITests */,
+				345C7C9F93F5235619EA3B909BF4ADC5 /* Pods-Japanese TranslatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6247946E590E4E7731BFADA24B3E8F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7538473AEDB8977EFF135C878819FFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABCDB1A7C6308C41F90BBEF66288124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AD1E07BC4E9BA870FEB466B2CFEB17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588088C51AC372E31C2DE91AADD30E4C /* Pods-Japanese Translator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C92E0237800676E554FA2B0B8BDB6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19BEC6723C882DB08891B650B49E932 /* Pods-Japanese TranslatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC7C7BCA9184C56D689394123DA59BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34ECE842A7DE13F6C769F532E355259 /* Pods-Japanese Translator-Japanese TranslatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D6FAFC34C6495CCDB37292FB511DE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Japanese Translator";
+			target = E2835BD32C9C956DF8685EE7552A7E37 /* Pods-Japanese Translator */;
+			targetProxy = 4D1458C3FE818E5EFD9AAAA14166A542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D182A4C46AFD4AF7A0BFFEF8246087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96121A30BE94A3D3809034140E5F230 /* Pods-Japanese Translator-Japanese TranslatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Japanese Translator-Japanese TranslatorUITests/Pods-Japanese Translator-Japanese TranslatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Japanese Translator-Japanese TranslatorUITests/Pods-Japanese Translator-Japanese TranslatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42F81EA26613432D1D5F29DC18322DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED07BA7597016E15BACFDC42B35E6D3 /* Pods-Japanese TranslatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Japanese TranslatorTests/Pods-Japanese TranslatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Japanese TranslatorTests/Pods-Japanese TranslatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93FFC072292359DA22A238AED4076A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773247A1A78345D7497ABB2EC9E5656D /* Pods-Japanese Translator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Japanese Translator/Pods-Japanese Translator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Japanese Translator/Pods-Japanese Translator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEF19F425EC49797D88A251C153518E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C65C7C045BC85ACD48CAE91730FBC3 /* Pods-Japanese Translator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Japanese Translator/Pods-Japanese Translator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Japanese Translator/Pods-Japanese Translator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3A06800352F407F0ADC8965974EDA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4BC6515E693D0EF7EF0D594A1365E3 /* Pods-Japanese Translator-Japanese TranslatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Japanese Translator-Japanese TranslatorUITests/Pods-Japanese Translator-Japanese TranslatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Japanese Translator-Japanese TranslatorUITests/Pods-Japanese Translator-Japanese TranslatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ECFC268870750CF28FF7A476C675CC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222F2DE6C555CFC6CCBDC040EC019C5F /* Pods-Japanese TranslatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Japanese TranslatorTests/Pods-Japanese TranslatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Japanese TranslatorTests/Pods-Japanese TranslatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281C36CD169CE7543EC28F03AC439A43 /* Build configuration list for PBXNativeTarget "Pods-Japanese Translator-Japanese TranslatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D182A4C46AFD4AF7A0BFFEF8246087 /* Debug */,
+				C3A06800352F407F0ADC8965974EDA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D38FC578345C06670AC692D584A80B8 /* Build configuration list for PBXNativeTarget "Pods-Japanese TranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F81EA26613432D1D5F29DC18322DED /* Debug */,
+				ECFC268870750CF28FF7A476C675CC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F3505CA927B9796AC42AD54BE1886E /* Build configuration list for PBXNativeTarget "Pods-Japanese Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF19F425EC49797D88A251C153518E4 /* Debug */,
+				93FFC072292359DA22A238AED4076A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

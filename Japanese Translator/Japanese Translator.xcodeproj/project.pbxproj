@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E57BB37299E6114BB46A78 /* Pods_Japanese_Translator_Japanese_TranslatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B5404E8CDD21B2B5523CE8 /* Pods_Japanese_Translator_Japanese_TranslatorUITests.framework */; };
+		C801EBA326490E9800C3121C /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801EBA226490E9800C3121C /* TranslateViewController.swift */; };
+		C801EBA526490EA500C3121C /* TranslatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801EBA426490EA500C3121C /* TranslatorModel.swift */; };
+		C8CE741A264235AA00DA4D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE7419264235AA00DA4D49 /* AppDelegate.swift */; };
+		C8CE741C264235AA00DA4D49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE741B264235AA00DA4D49 /* SceneDelegate.swift */; };
+		C8CE741E264235AA00DA4D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE741D264235AA00DA4D49 /* ViewController.swift */; };
+		C8CE7421264235AA00DA4D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8CE741F264235AA00DA4D49 /* Main.storyboard */; };
+		C8CE7423264235AD00DA4D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8CE7422264235AD00DA4D49 /* Assets.xcassets */; };
+		C8CE7426264235AD00DA4D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8CE7424264235AD00DA4D49 /* LaunchScreen.storyboard */; };
+		C8CE7431264235AE00DA4D49 /* Japanese_TranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE7430264235AE00DA4D49 /* Japanese_TranslatorTests.swift */; };
+		C8CE743C264235AE00DA4D49 /* Japanese_TranslatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE743B264235AE00DA4D49 /* Japanese_TranslatorUITests.swift */; };
+		C8CE74502642652900DA4D49 /* DeckOfFlashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE744F2642652900DA4D49 /* DeckOfFlashcards.swift */; };
+		C8CE74542643AF6600DA4D49 /* FlashcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE74532643AF6600DA4D49 /* FlashcardViewController.swift */; };
+		C8CE74562645205A00DA4D49 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE74552645205A00DA4D49 /* QuizViewController.swift */; };
+		C8CE745A264522C800DA4D49 /* QuizQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE7459264522C800DA4D49 /* QuizQuestions.swift */; };
+		E62C2DF72CA7F310758ECD7E /* Pods_Japanese_TranslatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D002C8B167EA71A10068CC35 /* Pods_Japanese_TranslatorTests.framework */; };
+		F136B0CBCC52AADF880B765F /* Pods_Japanese_Translator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D083E8B271186DB3F3239D /* Pods_Japanese_Translator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8CE742D264235AE00DA4D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8CE740E264235AA00DA4D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8CE7415264235AA00DA4D49;
+			remoteInfo = "Japanese Translator";
+		};
+		C8CE7438264235AE00DA4D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8CE740E264235AA00DA4D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8CE7415264235AA00DA4D49;
+			remoteInfo = "Japanese Translator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26BDD536240F59E04480DD5A /* Pods-Japanese Translator-Japanese TranslatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Translator-Japanese TranslatorUITests.release.xcconfig"; path = "Target Support Files/Pods-Japanese Translator-Japanese TranslatorUITests/Pods-Japanese Translator-Japanese TranslatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43C34BE2D13B5113A7B7CD8E /* Pods-Japanese Translator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Translator.release.xcconfig"; path = "Target Support Files/Pods-Japanese Translator/Pods-Japanese Translator.release.xcconfig"; sourceTree = "<group>"; };
+		45B5404E8CDD21B2B5523CE8 /* Pods_Japanese_Translator_Japanese_TranslatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Japanese_Translator_Japanese_TranslatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9B7442B0236133C9744353 /* Pods-Japanese TranslatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese TranslatorTests.release.xcconfig"; path = "Target Support Files/Pods-Japanese TranslatorTests/Pods-Japanese TranslatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F1FFDA935FB07DA1BDDBDD3 /* Pods-Japanese Translator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Translator.debug.xcconfig"; path = "Target Support Files/Pods-Japanese Translator/Pods-Japanese Translator.debug.xcconfig"; sourceTree = "<group>"; };
+		9256AC75FC576769F5AB46EA /* Pods-Japanese TranslatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese TranslatorTests.debug.xcconfig"; path = "Target Support Files/Pods-Japanese TranslatorTests/Pods-Japanese TranslatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96D083E8B271186DB3F3239D /* Pods_Japanese_Translator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Japanese_Translator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C801EBA226490E9800C3121C /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		C801EBA426490EA500C3121C /* TranslatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorModel.swift; sourceTree = "<group>"; };
+		C8CE7416264235AA00DA4D49 /* Japanese Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japanese Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CE7419264235AA00DA4D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8CE741B264235AA00DA4D49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C8CE741D264235AA00DA4D49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8CE7420264235AA00DA4D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8CE7422264235AD00DA4D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8CE7425264235AD00DA4D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8CE7427264235AD00DA4D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CE742C264235AE00DA4D49 /* Japanese TranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Japanese TranslatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CE7430264235AE00DA4D49 /* Japanese_TranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japanese_TranslatorTests.swift; sourceTree = "<group>"; };
+		C8CE7432264235AE00DA4D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CE7437264235AE00DA4D49 /* Japanese TranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Japanese TranslatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CE743B264235AE00DA4D49 /* Japanese_TranslatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japanese_TranslatorUITests.swift; sourceTree = "<group>"; };
+		C8CE743D264235AE00DA4D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CE744F2642652900DA4D49 /* DeckOfFlashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfFlashcards.swift; sourceTree = "<group>"; };
+		C8CE74532643AF6600DA4D49 /* FlashcardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardViewController.swift; sourceTree = "<group>"; };
+		C8CE74552645205A00DA4D49 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		C8CE7459264522C800DA4D49 /* QuizQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestions.swift; sourceTree = "<group>"; };
+		D002C8B167EA71A10068CC35 /* Pods_Japanese_TranslatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Japanese_TranslatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADD881851711DB223007203 /* Pods-Japanese Translator-Japanese TranslatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Japanese Translator-Japanese TranslatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Japanese Translator-Japanese TranslatorUITests/Pods-Japanese Translator-Japanese TranslatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8CE7413264235AA00DA4D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F136B0CBCC52AADF880B765F /* Pods_Japanese_Translator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CE7429264235AE00DA4D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62C2DF72CA7F310758ECD7E /* Pods_Japanese_TranslatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CE7434264235AE00DA4D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E57BB37299E6114BB46A78 /* Pods_Japanese_Translator_Japanese_TranslatorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06ADF16F3335F1B3B1030C41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F1FFDA935FB07DA1BDDBDD3 /* Pods-Japanese Translator.debug.xcconfig */,
+				43C34BE2D13B5113A7B7CD8E /* Pods-Japanese Translator.release.xcconfig */,
+				DADD881851711DB223007203 /* Pods-Japanese Translator-Japanese TranslatorUITests.debug.xcconfig */,
+				26BDD536240F59E04480DD5A /* Pods-Japanese Translator-Japanese TranslatorUITests.release.xcconfig */,
+				9256AC75FC576769F5AB46EA /* Pods-Japanese TranslatorTests.debug.xcconfig */,
+				4F9B7442B0236133C9744353 /* Pods-Japanese TranslatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		986AB6E8EC1B04FC19AC19D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96D083E8B271186DB3F3239D /* Pods_Japanese_Translator.framework */,
+				45B5404E8CDD21B2B5523CE8 /* Pods_Japanese_Translator_Japanese_TranslatorUITests.framework */,
+				D002C8B167EA71A10068CC35 /* Pods_Japanese_TranslatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8CE740D264235AA00DA4D49 = {
+			isa = PBXGroup;
+			children = (
+				C8CE7418264235AA00DA4D49 /* Japanese Translator */,
+				C8CE742F264235AE00DA4D49 /* Japanese TranslatorTests */,
+				C8CE743A264235AE00DA4D49 /* Japanese TranslatorUITests */,
+				C8CE7417264235AA00DA4D49 /* Products */,
+				06ADF16F3335F1B3B1030C41 /* Pods */,
+				986AB6E8EC1B04FC19AC19D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8CE7417264235AA00DA4D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8CE7416264235AA00DA4D49 /* Japanese Translator.app */,
+				C8CE742C264235AE00DA4D49 /* Japanese TranslatorTests.xctest */,
+				C8CE7437264235AE00DA4D49 /* Japanese TranslatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8CE7418264235AA00DA4D49 /* Japanese Translator */ = {
+			isa = PBXGroup;
+			children = (
+				C8CE7419264235AA00DA4D49 /* AppDelegate.swift */,
+				C8CE741B264235AA00DA4D49 /* SceneDelegate.swift */,
+				C8CE741D264235AA00DA4D49 /* ViewController.swift */,
+				C8CE741F264235AA00DA4D49 /* Main.storyboard */,
+				C8CE7422264235AD00DA4D49 /* Assets.xcassets */,
+				C8CE7424264235AD00DA4D49 /* LaunchScreen.storyboard */,
+				C8CE7427264235AD00DA4D49 /* Info.plist */,
+				C8CE744F2642652900DA4D49 /* DeckOfFlashcards.swift */,
+				C8CE74532643AF6600DA4D49 /* FlashcardViewController.swift */,
+				C8CE74552645205A00DA4D49 /* QuizViewController.swift */,
+				C8CE7459264522C800DA4D49 /* QuizQuestions.swift */,
+				C801EBA226490E9800C3121C /* TranslateViewController.swift */,
+				C801EBA426490EA500C3121C /* TranslatorModel.swift */,
+			);
+			path = "Japanese Translator";
+			sourceTree = "<group>";
+		};
+		C8CE742F264235AE00DA4D49 /* Japanese TranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8CE7430264235AE00DA4D49 /* Japanese_TranslatorTests.swift */,
+				C8CE7432264235AE00DA4D49 /* Info.plist */,
+			);
+			path = "Japanese TranslatorTests";
+			sourceTree = "<group>";
+		};
+		C8CE743A264235AE00DA4D49 /* Japanese TranslatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8CE743B264235AE00DA4D49 /* Japanese_TranslatorUITests.swift */,
+				C8CE743D264235AE00DA4D49 /* Info.plist */,
+			);
+			path = "Japanese TranslatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8CE7415264235AA00DA4D49 /* Japanese Translator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CE7440264235AE00DA4D49 /* Build configuration list for PBXNativeTarget "Japanese Translator" */;
+			buildPhases = (
+				2211BF6A353A45DA01EEBB04 /* [CP] Check Pods Manifest.lock */,
+				C8CE7412264235AA00DA4D49 /* Sources */,
+				C8CE7413264235AA00DA4D49 /* Frameworks */,
+				C8CE7414264235AA00DA4D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Japanese Translator";
+			productName = "Japanese Translator";
+			productReference = C8CE7416264235AA00DA4D49 /* Japanese Translator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8CE742B264235AE00DA4D49 /* Japanese TranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CE7443264235AE00DA4D49 /* Build configuration list for PBXNativeTarget "Japanese TranslatorTests" */;
+			buildPhases = (
+				29714A83954FBAC8858A5AE8 /* [CP] Check Pods Manifest.lock */,
+				C8CE7428264235AE00DA4D49 /* Sources */,
+				C8CE7429264235AE00DA4D49 /* Frameworks */,
+				C8CE742A264235AE00DA4D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8CE742E264235AE00DA4D49 /* PBXTargetDependency */,
+			);
+			name = "Japanese TranslatorTests";
+			productName = "Japanese TranslatorTests";
+			productReference = C8CE742C264235AE00DA4D49 /* Japanese TranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8CE7436264235AE00DA4D49 /* Japanese TranslatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CE7446264235AE00DA4D49 /* Build configuration list for PBXNativeTarget "Japanese TranslatorUITests" */;
+			buildPhases = (
+				23346DA4DDAF6ED744F16198 /* [CP] Check Pods Manifest.lock */,
+				C8CE7433264235AE00DA4D49 /* Sources */,
+				C8CE7434264235AE00DA4D49 /* Frameworks */,
+				C8CE7435264235AE00DA4D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8CE7439264235AE00DA4D49 /* PBXTargetDependency */,
+			);
+			name = "Japanese TranslatorUITests";
+			productName = "Japanese TranslatorUITests";
+			productReference = C8CE7437264235AE00DA4D49 /* Japanese TranslatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8CE740E264235AA00DA4D49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C8CE7415264235AA00DA4D49 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					C8CE742B264235AE00DA4D49 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C8CE7415264235AA00DA4D49;
+					};
+					C8CE7436264235AE00DA4D49 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C8CE7415264235AA00DA4D49;
+					};
+				};
+			};
+			buildConfigurationList = C8CE7411264235AA00DA4D49 /* Build configuration list for PBXProject "Japanese Translator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8CE740D264235AA00DA4D49;
+			productRefGroup = C8CE7417264235AA00DA4D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8CE7415264235AA00DA4D49 /* Japanese Translator */,
+				C8CE742B264235AE00DA4D49 /* Japanese TranslatorTests */,
+				C8CE7436264235AE00DA4D49 /* Japanese TranslatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8CE7414264235AA00DA4D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CE7426264235AD00DA4D49 /* LaunchScreen.storyboard in Resources */,
+				C8CE7423264235AD00DA4D49 /* Assets.xcassets in Resources */,
+				C8CE7421264235AA00DA4D49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CE742A264235AE00DA4D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CE7435264235AE00DA4D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2211BF6A353A45DA01EEBB04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Japanese Translator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23346DA4DDAF6ED744F16198 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Japanese Translator-Japanese TranslatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29714A83954FBAC8858A5AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Japanese TranslatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8CE7412264235AA00DA4D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CE74542643AF6600DA4D49 /* FlashcardViewController.swift in Sources */,
+				C8CE741E264235AA00DA4D49 /* ViewController.swift in Sources */,
+				C8CE745A264522C800DA4D49 /* QuizQuestions.swift in Sources */,
+				C8CE741A264235AA00DA4D49 /* AppDelegate.swift in Sources */,
+				C801EBA526490EA500C3121C /* TranslatorModel.swift in Sources */,
+				C8CE74562645205A00DA4D49 /* QuizViewController.swift in Sources */,
+				C8CE741C264235AA00DA4D49 /* SceneDelegate.swift in Sources */,
+				C8CE74502642652900DA4D49 /* DeckOfFlashcards.swift in Sources */,
+				C801EBA326490E9800C3121C /* TranslateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CE7428264235AE00DA4D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CE7431264235AE00DA4D49 /* Japanese_TranslatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CE7433264235AE00DA4D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CE743C264235AE00DA4D49 /* Japanese_TranslatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8CE742E264235AE00DA4D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8CE7415264235AA00DA4D49 /* Japanese Translator */;
+			targetProxy = C8CE742D264235AE00DA4D49 /* PBXContainerItemProxy */;
+		};
+		C8CE7439264235AE00DA4D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8CE7415264235AA00DA4D49 /* Japanese Translator */;
+			targetProxy = C8CE7438264235AE00DA4D49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8CE741F264235AA00DA4D49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8CE7420264235AA00DA4D49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8CE7424264235AD00DA4D49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8CE7425264235AD00DA4D49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8CE743E264235AE00DA4D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8CE743F264235AE00DA4D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8CE7441264235AE00DA4D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1FFDA935FB07DA1BDDBDD3 /* Pods-Japanese Translator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5QF5WZNH;
+				INFOPLIST_FILE = "Japanese Translator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WilsonYoung.Japanese-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8CE7442264235AE00DA4D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C34BE2D13B5113A7B7CD8E /* Pods-Japanese Translator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5QF5WZNH;
+				INFOPLIST_FILE = "Japanese Translator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WilsonYoung.Japanese-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8CE7444264235AE00DA4D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9256AC75FC576769F5AB46EA /* Pods-Japanese TranslatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5QF5WZNH;
+				INFOPLIST_FILE = "Japanese TranslatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WilsonYoung.Japanese-TranslatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Japanese Translator.app/Japanese Translator";
+			};
+			name = Debug;
+		};
+		C8CE7445264235AE00DA4D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9B7442B0236133C9744353 /* Pods-Japanese TranslatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5QF5WZNH;
+				INFOPLIST_FILE = "Japanese TranslatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WilsonYoung.Japanese-TranslatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Japanese Translator.app/Japanese Translator";
+			};
+			name = Release;
+		};
+		C8CE7447264235AE00DA4D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADD881851711DB223007203 /* Pods-Japanese Translator-Japanese TranslatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5QF5WZNH;
+				INFOPLIST_FILE = "Japanese TranslatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WilsonYoung.Japanese-TranslatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Japanese Translator";
+			};
+			name = Debug;
+		};
+		C8CE7448264235AE00DA4D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BDD536240F59E04480DD5A /* Pods-Japanese Translator-Japanese TranslatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG5QF5WZNH;
+				INFOPLIST_FILE = "Japanese TranslatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WilsonYoung.Japanese-TranslatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Japanese Translator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8CE7411264235AA00DA4D49 /* Build configuration list for PBXProject "Japanese Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CE743E264235AE00DA4D49 /* Debug */,
+				C8CE743F264235AE00DA4D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8CE7440264235AE00DA4D49 /* Build configuration list for PBXNativeTarget "Japanese Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CE7441264235AE00DA4D49 /* Debug */,
+				C8CE7442264235AE00DA4D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8CE7443264235AE00DA4D49 /* Build configuration list for PBXNativeTarget "Japanese TranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CE7444264235AE00DA4D49 /* Debug */,
+				C8CE7445264235AE00DA4D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8CE7446264235AE00DA4D49 /* Build configuration list for PBXNativeTarget "Japanese TranslatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CE7447264235AE00DA4D49 /* Debug */,
+				C8CE7448264235AE00DA4D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8CE740E264235AA00DA4D49 /* Project object */;
+}
