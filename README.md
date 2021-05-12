@@ -6,7 +6,6 @@ Some features that are a must have are:
 - Basic translating from English to Japanese or vice versa
 - Notecards that the user can make to help study
 - Quiz quetions to help the user study
-- Audio of japanese where the user has to enter in the right translation
 
 Some nice to have features are:
 - Videos from popular Japanese tutorials that the user can access
