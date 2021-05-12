@@ -12,3 +12,10 @@ Some nice to have features are:
 - Guess an anime from their opening song
 
 There might be more features depending on how the actual implementation of the project goes but so far this is what is planned out.
+
+Completed Version:
+- Fully functioning translation interface
+- Basic flashcards for the user to study with
+- Basic quiz questions for the user to study with
+
+Sadly I was unable to implement the nice to have features or the audio quiz features due to time constraint. 
