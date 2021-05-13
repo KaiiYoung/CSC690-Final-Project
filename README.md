@@ -19,3 +19,4 @@ Completed Version:
 - Basic quiz questions for the user to study with
 
 Sadly I was unable to implement the nice to have features or the audio quiz features due to time constraint. 
+In order to run the project, please use the workspace file and not the xCode file.
